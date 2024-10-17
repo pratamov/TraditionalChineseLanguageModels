@@ -21,7 +21,7 @@ To download the 3-grams ARPA model:
 
 ```
 mkdir 3-grams-arpa-temp
-gh release download 3-grams-arpa -D 3-grams-arpa-temp -R pratamov/ZH-TW_LM
+gh release download m3-grams-arpa -D 3-grams-arpa-temp -R pratamov/ZH-TW_LM
 cat 3-grams-arpa-temp/* | gunzip > 3-grams.arpa
 rm -rf 3-grams-arpa-temp
 ```
@@ -31,7 +31,7 @@ To download the 3-grams binary model:
 
 ```
 mkdir 3-grams-bin-temp
-gh release download 3-grams-bin -D 3-grams-bin-temp -R pratamov/ZH-TW_LM
+gh release download m3-grams-bin -D 3-grams-bin-temp -R pratamov/ZH-TW_LM
 cat 3-grams-bin-temp/* | gunzip > 3-grams.bin
 rm -rf 3-grams-bin-temp
 ```
@@ -52,7 +52,7 @@ To download the 4-grams ARPA model:
 
 ```
 mkdir 4-grams-arpa-temp
-gh release download 4-grams-arpa -D 4-grams-arpa-temp -R pratamov/ZH-TW_LM
+gh release download m4-grams-arpa -D 4-grams-arpa-temp -R pratamov/ZH-TW_LM
 cat 4-grams-arpa-temp/* | gunzip > 4-grams.arpa
 rm -rf 4-grams-arpa-temp
 ```
@@ -62,7 +62,7 @@ To download the 4-grams binary model:
 
 ```
 mkdir 4-grams-bin-temp
-gh release download 4-grams-bin -D 4-grams-bin-temp -R pratamov/ZH-TW_LM
+gh release download m4-grams-bin -D 4-grams-bin-temp -R pratamov/ZH-TW_LM
 cat 4-grams-bin-temp/* | gunzip > 4-grams.bin
 rm -rf 4-grams-bin-temp
 ```
@@ -84,7 +84,7 @@ To download the 5-grams ARPA model:
 
 ```
 mkdir 5-grams-arpa-temp
-gh release download 5-grams-arpa -D 5-grams-arpa-temp -R pratamov/ZH-TW_LM
+gh release download m5-grams-arpa -D 5-grams-arpa-temp -R pratamov/ZH-TW_LM
 cat 5-grams-arpa-temp/* | gunzip > 5-grams.arpa
 rm -rf 5-grams-arpa-temp
 ```
@@ -94,7 +94,7 @@ To download the 3-grams binary model:
 
 ```
 mkdir 5-grams-bin-temp
-gh release download 5-grams-bin -D 5-grams-bin-temp -R pratamov/ZH-TW_LM
+gh release download m5-grams-bin -D 5-grams-bin-temp -R pratamov/ZH-TW_LM
 cat 5-grams-bin-temp/* | gunzip > 5-grams.bin
 rm -rf 5-grams-bin-temp
 ```
